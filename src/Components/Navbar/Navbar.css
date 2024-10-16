@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links,
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links ul {
+    gap: 30px;
+    padding-right: 15px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.nav-links input {
+    padding: 5px 10px;
+    margin-right: 8px;
+    background-color: white;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.nav-links button {
+    padding: 7px 12px;
+    background-color: rgb(80, 80, 80);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

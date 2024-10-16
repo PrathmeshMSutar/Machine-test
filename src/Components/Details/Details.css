@@ -1,0 +1,21 @@
+.banner {
+    /* margin-top: 20px; */
+    width: 100%;
+    /* background-color: aqua; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.left-section .details .logo img {
+    width: 100px;
+}
+
+.right-section {
+    flex: 1;
+}
